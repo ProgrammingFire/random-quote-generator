@@ -93,4 +93,12 @@
 .buttons {
   width: 100%;
   display: flex;
+  flex-wrap: wrap;
+}
+
+@media screen and (max-width: 675px) {
+  .btn-large {
+    width: 100%;
+    margin-top: 15px;
+  }
 }

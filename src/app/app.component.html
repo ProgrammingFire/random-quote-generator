@@ -20,11 +20,11 @@
     <div class="author">{{ quote.author }}</div>
     <div class="divider"></div>
     <div class="buttons">
-      <button (click)="tweet()" class="btn">
-        <i class="fab fa-twitter icon-large"></i>
+      <button (click)="tweet()" class="btn btn-large">
+        <i class="fab fa-twitter icon-large"></i>{{ " " }} Tweet
       </button>
       <button class="btn btn-large end" (click)="getRandomQuote()">
-        New Quote
+        Next{{ " " }}<i class="fas fa-arrow-right"></i>
       </button>
     </div>
   </div>
