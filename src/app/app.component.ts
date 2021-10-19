@@ -22,7 +22,7 @@ export class AppComponent implements OnInit {
   }
 
   tweet() {
-    const realText = `${this.quote.content} \nBy ${this.quote.author}`;
+    const realText = `${this.quote.content} \- ${this.quote.author}`;
     window.location.href = `https://twitter.com/intent/tweet?text=${realText}`;
   }
 }
